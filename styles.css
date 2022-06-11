@@ -1,0 +1,84 @@
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+*/
+body {
+	background: black;
+}
+
+.postcard {
+	background-color: white;
+	width: 430px;
+	height: 340px;
+	border-radius: 5px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.postcard-header {
+	display: flex;
+	padding: 20px 25px 10px 25px;
+	align-items: center;
+	justify-content: center;
+}
+
+img {
+	width: 80px;
+	height: 80px;
+	margin: 0px;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+h1 {
+	font-size: 35px;
+	width: 90%;
+	margin: 0px;
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+.postcard-body {
+	display: flex;
+	padding: 30px 25px 30px 25px;
+}
+
+.body-left {
+	font-family: "Montserrat";
+}
+
+body-right {
+	font-family: "Montserrat";
+}
+
+p {
+	color: black;
+	margin: 0px;
+	font-size: 15px;
+}
+
+input {
+	border: none;
+	border-bottom: 2px solid gray;
+	margin-top: 5px;
+	font-size: 16px;
+	width: 100%;
+}
+
+.postcard-footer {
+	margin: auto;
+	text-align: center;
+}
+
+button {
+	text-decoration: none;
+	padding: 9px;
+	border-radius: 4px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 15px;
+}
